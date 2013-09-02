@@ -1,0 +1,16 @@
+inherit kde4
+
+NAME="libalkimia"
+VERSION=4.3.2
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="KDE financial library"
+DESCRIPTION="A library with common classes and functionality for KDE finance
+applications."
+HOMEPAGE="http://community.kde.org/Alkimia/libalkimia"
+SRC_URI="http://kde-apps.org/CONTENT/content-files/137323-libalkimia-${VERSION}.tar.bz2"
+
+PKG_NAMES="libalkimia4 libalkimia-devel"
+libalkimia4_DOCS="libalkimia/ChangeLog"
+libalkimia4_CONTENTS="usr/bin/cygalkimia-4.dll"
+libalkimia_devel_CONTENTS="usr/include/ usr/lib/ usr/share/kde4/apps/cmake/"

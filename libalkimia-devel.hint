@@ -1,6 +1,0 @@
-category: KDE
-requires: libalkimia4 libgmp-devel libkdecore-devel libQtCore4-devel libQtDBus4-devel
-external-source: libalkimia
-sdesc: "KDE financial library (development)"
-ldesc: "A library with common classes and functionality for KDE finance 
-applications."

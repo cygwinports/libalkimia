@@ -1,6 +1,0 @@
-category: KDE
-requires: libgcc1 libgmp3 libQtCore4 libQtDBus4 libstdc++6
-external-source: libalkimia
-sdesc: "KDE financial library (runtime)"
-ldesc: "A library with common classes and functionality for KDE finance 
-applications."
